@@ -13,9 +13,9 @@ into a method called store() within the RegistrationController class.
 7. Also import the Laravel Eloquent class into the RegistrationController class.
 8. Use the eloquent syntax in the store method to insert the registration data into a database table.
 ### NB:
-Where possible, validate that the registration data are valid by using validation rules in the Registration
+- Where possible, validate that the registration data are valid by using validation rules in the Registration
 Model
-Preferably use php artisan migration to create the database tables
-Also create an interface for the user to be able to edit registration details.
-The registration module comes shipped with Laravel so this exercise is just for practice of end to end
+- Preferably use php artisan migration to create the database tables
+- Also create an interface for the user to be able to edit registration details.
+- The registration module comes shipped with Laravel so this exercise is just for practice of end to end
 request flow in Laravel.
